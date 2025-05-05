@@ -85,9 +85,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer
 
-# Sony DaxUI and daxService
+# Dolby Manager
 PRODUCT_PACKAGES += \
-    daxService \
-    DolbySound
+    XiaomiDolby
 
 include vendor/sony/dolby/dolby-vendor.mk

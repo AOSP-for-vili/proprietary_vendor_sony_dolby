@@ -28,8 +28,6 @@ PRODUCT_PACKAGES += \
     libdlbdsservice \
     liboem_specific \
     vendor.dolby.hardware.dms@2.0-impl \
-    DolbySound \
-    daxService \
     vendor.dolby.hardware.dms@2.0-service \
     vendor.dolby.media.c2@1.0-service
 
