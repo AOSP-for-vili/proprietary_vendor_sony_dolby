@@ -1,10 +1,3 @@
-# Dolby APKs and Configs
-system_ext/priv-app/daxService/daxService.apk
-system_ext/priv-app/DolbySound/DolbySound.apk
-system_ext/etc/sysconfig/config-com.dolby.daxappui2.xml
-system_ext/etc/sysconfig/config-com.dolby.daxservice.xml
-system_ext/etc/permissions/privapp-com.dolby.daxservice.xml
-
 # Vendor Libraries
 vendor/lib/libdlbpreg.so
 vendor/lib/libdapparamstorage.so
