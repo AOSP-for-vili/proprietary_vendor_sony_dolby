@@ -43,21 +43,15 @@ DEVICE_MANIFEST_FILE +=
 
 The only change done above is changing := symbol to += so that manifest can't be overriden from device tree in BoardConfig makefile.
 
-At the end an example commit to properly implement it in your device tree could be :-
+Lastly, some example commits to properly implement it in your device tree could be :-
 
-[**1**] https://github.com/Spanish-or-Vanish/android_device_xiaomi_sm8350-common/commit/2295d515b2d24cb94cc0545b0f80c20ca93af761
+[**1**] https://github.com/aosp-for-giulia/android_device_oneplus_sm8650-common/commit/1fae8d13a1549d687f00024d7edacedf68b79ca3
 
-[**2**] https://github.com/Spanish-or-Vanish/android_device_xiaomi_sm8350-common/commit/acbc197257083339b9d1b738c5b613f4a0feec7f
-
-[**3**] https://github.com/Spanish-or-Vanish/android_device_xiaomi_sm8350-common/commit/0182c5b44f0984845b8fb71a6006ecd4abffc9d3
-
-[**4**] https://github.com/Spanish-or-Vanish/android_device_xiaomi_sm8350-common/commit/e64cfcc3382ac6915d7d513ef7a69a64eb00659c
-
-[**5**] https://github.com/Spanish-or-Vanish/android_device_xiaomi_sm8350-common/commit/463cd46921e1451c9b8315334f8cf01998469b6d
+[**2**] https://github.com/AOSP-for-vili/android_device_xiaomi_sm8350-common/commit/109505d42a762b0252d1eb3beaad2421d1616633
 
 # Credits:
  * [**HELLBOY017**](https://github.com/HELLBOY017)
  * [**adithya2306**](https://github.com/adithya2306)
  * [**johnmart19**](https://github.com/johnmart19)
  * [**userariii**](https://github.com/userariii)
- * [**1xtash**](https://github.com/1xtAsh)
+ * [**GHOST | ゴースト**](https://github.com/Ghosuto)
