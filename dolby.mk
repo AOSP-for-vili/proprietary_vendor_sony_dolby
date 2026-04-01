@@ -85,8 +85,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer
 
-# Dolby Manager
+# LunarisDolby
 PRODUCT_PACKAGES += \
-    XiaomiDolby
+    LunarisDolby
 
 include vendor/sony/dolby/dolby-vendor.mk
