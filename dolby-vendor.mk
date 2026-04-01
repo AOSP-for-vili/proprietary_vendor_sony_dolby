@@ -27,8 +27,3 @@ PRODUCT_PACKAGES += \
     vendor.dolby.hardware.dms@2.0-impl \
     vendor.dolby.hardware.dms@2.0-service \
     vendor.dolby.media.c2@1.0-service
-
-ifeq ($(SPATIAL_AUDIO),true)
-PRODUCT_PACKAGES += \
-    libspatialaudio
-endif

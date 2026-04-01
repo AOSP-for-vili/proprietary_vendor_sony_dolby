@@ -41,27 +41,9 @@ PRODUCT_COPY_FILES += \
     $(DOLBY_PATH)/configs/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     $(DOLBY_PATH)/configs/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml
 
-SPATIAL_AUDIO ?= true
-ifeq ($(SPATIAL_AUDIO),true)
 # Overlays
 PRODUCT_PACKAGES += \
     DolbyFrameworksResCommon
-
-# Spatial Audio
-PRODUCT_COPY_FILES += \
-    $(DOLBY_PATH)/configs/android.hardware.sensor.dynamic.head_tracker.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.dynamic.head_tracker.xml
-
-# Spatial Audio: optimize spatializer effect
-PRODUCT_PROPERTY_OVERRIDES += \
-       audio.spatializer.effect.util_clamp_min=300
-
-# Spatial Audio: declare use of spatial audio
-PRODUCT_PROPERTY_OVERRIDES += \
-       ro.audio.spatializer_enabled=true \
-       ro.audio.headtracking_enabled=true \
-       ro.audio.spatializer_transaural_enabled_default=false \
-       persist.vendor.audio.spatializer.speaker_enabled=true
-endif
 
 # Media (C2)
 PRODUCT_PACKAGES += \
