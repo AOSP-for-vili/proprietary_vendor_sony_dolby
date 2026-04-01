@@ -81,10 +81,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.dolby.ds2.enabled=false
 
-# DSP Volume Synchronizer
-PRODUCT_PACKAGES += \
-    DSPVolumeSynchronizer
-
 # Sony DaxUI and daxService
 PRODUCT_PACKAGES += \
     daxService \
